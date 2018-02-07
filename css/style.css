@@ -1,3 +1,43 @@
 * {
-    color: blue;
+    color: rgb(218, 218, 218);
+}
+
+body {
+    background-image: url('https://www.iqmetrix.com/hs-fs/hubfs/04_Resources/01_Blog/01_Daily_Dose/bigdatablog.jpg?t=1516918468738&width=1600&name=bigdatablog.jpg');
+    background-color: rgb(47, 99, 141);
+    background-attachment: fixed;
+}
+
+.wrapper {
+
+}
+
+#ProfilePic {
+
+}
+
+header {
+    
+}
+
+section {
+    padding
+}
+
+footer {
+
+}
+
+p {
+    width: 60%;
+}
+
+li {
+    display: inline-block;
+    background: gray;
+    opacity: 0.8;
+    padding: 20px;
+    margin: 10px;
+    font-family: helvetica;
+    border: 4px;
 }

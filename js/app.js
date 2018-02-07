@@ -2,12 +2,15 @@
 
 var userName = prompt('Hi! Glad you are here. What is your name?');
 alert('Hi, ' + userName + ', nice to meet you! I am going to ask you a few fun questions about me. Please answer with y/n or yes/no.');
+console.log('User was asked their name, responded with ' + userName + '.');
 
 
 var answer1 = prompt('Do you think I like pets?').toLowerCase().trim();
 
+console.log('User was asked if I like pets, responded with ' + answer1);
+
 if (answer1 === 'yes' || answer1 === 'y') {
-  alert('Right! ' + userName + ', I have a dog and three cats!');
+  alert('Right! ' + userName + ', I don\'t have any, but I really want a quaker parrot and an ausi shepard!');
 } 
 else if(answer1 === 'no' || answer1 === 'n') {   
   alert('You are wrong, ' + userName + '! I love animals!');
@@ -17,23 +20,29 @@ else {
 };
 
 
-var answer2 = prompt('Next question! Do you think I have a brother?').toLowerCase().trim();
+
+var answer2 = prompt('Next question! Do you think I have any sisters?').toLowerCase().trim();
+
+console.log('User was asked if I had any sisters, reponded with ' + answer2);
 
 if (answer2 === 'no' || answer2 === 'n') {
-	alert('Correct, ' + userName + '! I have a sister who lives in detroit and will be visiting here in two weeks!');
+	alert('Correct, ' + userName + '! I have 3 brothers split between the east and west coast!');
 }
 else if (answer2 === 'yes' || answer2 === 'y') {
-	alert('Sorry ' + userName + ', I actually have a sister!');
+	alert('Sorry ' + userName + ', I actually have three brothers!');
 }
 else {
 	alert('Come on now, ' + userName + '! Follow the directions!');
 };
 
 
+
 var answer3 =  prompt('Okay, ' + userName + '. let\'s try another! Am I a military veteran?').toLowerCase().trim();
 
+console.log('User was asked if I am a veteran, reponded with ' + answer3);
+
 if (answer3 === 'yes' || answer3 === 'y') {
-  alert('Idubitably, my dear ' + userName + '! On to the last question');
+  alert('Indubitably, my dear ' + userName + '! On to the last question');
 }
 else if (answer3 === 'no' || answer3 === 'n'){
 	alert('Incorrect ' + userName + ', I was in the Marine Corps for 5 years. Hopefully, you\'ll get this last one...');
@@ -43,7 +52,10 @@ else {
 };
 
 
+
 var answer4 = prompt('Now for the finale, ' + userName + '... Have I ever traveled outside the United States?').toLowerCase().trim();
+
+console.log('User was asked if I have traveled outside the United States, reponded with ' + answer4);
 
 if (answer4 === 'yes' || answer4 === 'y') {
 	alert('How did you know, ' + userName + '?! I lived in Seoul, South Korea for 6 months a few years back. Congratulations, you are really good at guessing!');
