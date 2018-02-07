@@ -11,11 +11,9 @@ console.log('User was asked if I like pets, responded with: ' + answer1);
 
 if (answer1 === 'yes' || answer1 === 'y') {
   alert('Right! ' + userName + ', I don\'t have any, but I really want a quaker parrot and an ausi shepard!');
-} 
-else if(answer1 === 'no' || answer1 === 'n') {   
+} else if (answer1 === 'no' || answer1 === 'n') {   
   alert('You are wrong, ' + userName + '! I love animals!');
-} 
-else {
+} else {
   alert('Sorry! That was not a valid answer. Maybe you made a typo? No matter, let\'s crack on to the next question!');
 };
 
@@ -26,11 +24,9 @@ console.log('User was asked if I had any sisters, reponded with: ' + answer2);
 
 if (answer2 === 'no' || answer2 === 'n') {
 	alert('Correct, ' + userName + '! I have 3 brothers split between the east and west coast!');
-}
-else if (answer2 === 'yes' || answer2 === 'y') {
+} else if (answer2 === 'yes' || answer2 === 'y') {
 	alert('Sorry ' + userName + ', I actually have three brothers!');
-}
-else {
+} else {
 	alert('Come on now, ' + userName + '! Follow the directions!');
 };
 
@@ -41,11 +37,9 @@ console.log('User was asked if I enjoy hiking, reponded with: ' + answer3);
 
 if (answer3 === 'yes' || answer3 === 'y') {
   alert('Absolutely right, ' + userName + '! Onward!');
-}
-else if (answer3 === 'no' || answer3 === 'n'){
+} else if (answer3 === 'no' || answer3 === 'n') {
 	alert('Noooo. ' + userName + ', we live in Seattle, how could I not?');
-}
-else {
+} else {
 	alert('There were definitely guidelines at the beginning, and that certainly wasn\'t the correct type of response...Next question!');
 };
 
@@ -56,11 +50,9 @@ console.log('User was asked if I am a veteran, reponded with: ' + answer4);
 
 if (answer4 === 'yes' || answer4 === 'y') {
   alert('Indubitably, my dear ' + userName + '! On to the last question');
-}
-else if (answer4 === 'no' || answer4 === 'n'){
+} else if (answer4 === 'no' || answer4 === 'n'){
 	alert('Incorrect ' + userName + ', I was in the Marine Corps for 5 years. Hopefully, you\'ll get this last one...');
-}
-else {
+} else {
 	alert('Maybe your keyboard is malfunctioning, eh? One last chance, onward we go!');
 };
 
@@ -71,10 +63,8 @@ console.log('User was asked if I have traveled outside the United States, repond
 
 if (answer5 === 'yes' || answer5 === 'y') {
 	alert('How did you know, ' + userName + '?! I lived in Seoul, South Korea for 6 months a few years back. Congratulations, you are really good at guessing!');
-}
-else if (answer5 === 'no' || answer5 === 'n') {
+} else if (answer5 === 'no' || answer5 === 'n') {
 	alert('Tough break, ' + userName + '. I definitely lived in South Korea for a bit a few years back. Better luck next time!');
-}
-else {
+} else {
 	alert('' + userName + ', congratulations! Your keyboard is utter rubbish. Please replace promptly.');
 }
