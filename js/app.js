@@ -20,7 +20,6 @@ else {
 };
 
 
-
 var answer2 = prompt('Next question! Do you think I have any sisters?').toLowerCase().trim();
 
 console.log('User was asked if I had any sisters, reponded with: ' + answer2);
