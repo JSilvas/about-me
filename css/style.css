@@ -9,7 +9,7 @@ body {
     background-attachment: fixed;
 }
 
-.wrapper {
+/* .wrapper {
 
 }
 
@@ -22,23 +22,31 @@ header {
 }
 
 section {
-    padding
+
 }
 
 footer {
 
-}
+} */
 
 p {
     width: 60%;
-}
+};
 
-li {
+.navbar {
     display: inline-block;
     background: gray;
     opacity: 0.8;
     padding: 20px;
     margin: 10px;
     font-family: helvetica;
-    border: 4px;
+    /* border: medium seagreen; */
+    /* border-radius: round; */
 }
+
+/* ol {
+    
+    background: gray;
+    opacity: 0.4;
+    padding: 10px;
+} */
