@@ -33,6 +33,7 @@ p {
     width: 60%;
 };
 
+
 .navbar {
     display: inline-block;
     background: gray;
@@ -40,6 +41,7 @@ p {
     padding: 20px;
     margin: 10px;
     font-family: helvetica;
+    float: left;
     /* border: medium seagreen; */
     /* border-radius: round; */
 }
