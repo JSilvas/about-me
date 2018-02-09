@@ -25,9 +25,8 @@ function question1() {
   } else {
     alert('Sorry! That was not a valid answer. Maybe you made a typo? No matter, let\'s crack on to the next question!');
   }
-  console.log(correctAnswers);  
+  console.log(correctAnswers);
 }
-  
 
 // QUESTION 2
 function question2() {
@@ -41,8 +40,8 @@ function question2() {
     alert('Sorry ' + userName + ', I actually have three brothers!');
   } else {
     alert('Come on now, ' + userName + '! Follow the directions!');
-  } 
-  console.log(correctAnswers);  
+  }
+  console.log(correctAnswers);
 }
 
 // QUESTION 3
@@ -58,7 +57,7 @@ function question3() {
   } else {
     alert('There were definitely guidelines at the beginning, and that certainly wasn\'t the correct type of response...Next question!');
   }
-  console.log(correctAnswers);  
+  console.log(correctAnswers);
 }
 
 //QUESTION 4
@@ -95,10 +94,11 @@ function question5() {
 
 // QUESTION 6 - NUMBER GUESSING GAME
 function question6() {
-  var favNum = 3;
+  var favNum = Math.floor(Math.random() * 11);
+  console.log('Secret number is: ' + favNum);
   // Main loop for number guessing game
   for (var i = 0; i < 4; i++) {
-    var userGuess = parseInt (prompt('Can you guess my favorite number?'));
+    var userGuess = parseInt(prompt('Can you guess my favorite number?'));
     console.log('User was asked to guess favorite number and responded: ' + userGuess);
 
     if (userGuess === favNum) {
@@ -117,43 +117,6 @@ function question6() {
   //console.log(totalAnswers);
 }
 
-// QUESTION 6 Solution using Functions and Reg Ex
-
-// Generates pseudo-random number from input range condition
-// function getRandomInt(max) {
-//   return Math.floor(Math.random() * Math.floor(max));
-// }
-// console.log('Random Int function expected output (0-10): ' + getRandomInt(11));
-
-// // Parses input string into strictly equal integer
-// var filterInt = function(value) {
-//   if (/^(\-|\+)?([0-9]+|Infinity)$/.test(value))
-//     return Number(value);
-//   return NaN;
-// };
-// console.log('Parse Int function expected output(421): ' + filterInt('421'));
-
-// var randNum = (getRandomInt(11));
-// console.log('Super secret current game answer: ' + randNum);
-
-// // Main loop for number guessing game
-// for (var i = 0; i < 4; i++) {
-//   var userGuess = prompt('Can you guess which number I picked out of 0-10?');
-//   var userGuessInt = (filterInt(userGuess));
-
-//   if (userGuessInt === randNum) {
-//     alert('Answer Correct');
-//     break;
-//   } else if (userGuessInt < randNum) {
-//     alert('answer too low');
-//   } else if (userGuessInt > randNum) {
-//     alert('answer too high');
-//   } else {
-//     alert('invalid');
-//   }
-// }
-
-
 // QUESTION 7 - MULTI-ANSWER QUESTION
 function question7() {
   var answerArray = ['united states', 'south korea', 'england'];
@@ -162,7 +125,7 @@ function question7() {
 
   while (y === false && x > 0) {
     var answer7 = prompt('What countries have I lived in?').toLowerCase().trim();
-    console.log('User was asked to guess favorite number and responded: ' + answer7);
+    console.log('User was asked which countries I\'ve lived in and responded: ' + answer7);
 
     for (var j = 0; j < answerArray.length; j++) {
 

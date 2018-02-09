@@ -6,35 +6,35 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Code-Curious by Jay Silvas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	
 	<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ87JdcOtY9bh127vM8miiX4m-H_UHYNDqnq23yD1I2VHvuKavdfw">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
-<body/>
+<body>
+	<nav>
+		<ul>
+			<li class="navbar">Home</li>
+			<li class="navbar">About</li>
+			<li class="navbar">Blog</li>
+			<li class="navbar">Contact</li>
+		</ul>
+	</nav>
 	<div id="wrapper">
-		<div id="ProfilePic">
-			<img src="https://pbs.twimg.com/profile_images/891026722325319680/7coMYGk7_400x400.jpg" alt:"Me" title="Me" />
-		</div>
 		<header>
-			<h1>Hello, Fellow Sapiens! </h1>
-			<h2>A Sundry Blog on Random Thoughts and Things Seen Around the Verse</h2>
-			<nav>
-				<h3>
-					<ul>
-						<li class="navbar">Home</li>
-						<li class="navbar">About Me</li>
-						<li class="navbar">Blog</li>
-						<li class="navbar">Contact</li>
-					</ul>
-				</h3>
-			</nav>
+			<div id="ProfilePic">
+				<img id="facePic" src="https://pbs.twimg.com/profile_images/891026722325319680/7coMYGk7_400x400.jpg" alt:"My Face" title="My Face" />
+			</div>
+				<h1>Hello, Fellow Sapiens! </h1>
+				<h2>A Sundry Blog on Random Thoughts and Things Seen Around the Verse</h2>
 		</header>
 		
 		<main>
 			<section>
 				<article>
-					<figure><img src:"//imgs.xkcd.com/comics/code_quality.png" alt:"xkcd - Code Quality" title:"xkcd - Code Quality"/></figure>
+					<img src="https://imgs.xkcd.com/comics/code_quality.png" title="I honestly didn't think you could even USE emoji in variable names. Or that there were so many different crying ones." alt="xkcd - Code Quality" title="xkcd - Code Quality"/><figcaption>FigCaption</figcaption>					
 					<h3>Journal Entry 1 - So Developer, Much Learning</h3>
 					<h5>Feb. 6<sup>th</sup>, 2018</h5>
 					<p>
@@ -46,7 +46,7 @@
 					<p>
 						I'm not really sure why it has been such a struggle to achieve a relatively organized grasp of so many of these concepts, but it finally feels like many of the pieces and their purposes are falling into place, at least in my mind. I suppose we'll see how well that continues to translate into tangible work to show for my efforts. In the meantime, I plan to post more actively on Twitter and perhaps try to write a few articles to post online relevant to my experience here. Onwards into the deluge!
 					</p>
-					</article>
+				</article>
 				<article>
 					<h3>Journey to the Center of the Twitterverse</h3>
 					<h5>Feb. 3<sup>rd</sup>, 2018</h5>
@@ -73,35 +73,33 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</p>
 				</article>
-			</section>
-			<h2>Top ten places I'd love to travel:</h2>
-			<ol>
-				<li>New Zealand</li>
-				<li>Norway</li>
-				<li>Thailand</li>
-				<li>South Korea</li>
-				<li>United Kingdom</li>
-				<li>Germany</li>
-				<li>Spain</li>
-				<li>Morocco</li>
-				<li>Japan</li>
-				<li>Mongolia</li>
-			</ol>
-		</main>
+				<div id="topTenList">
+					<h2>Top ten places I'd love to travel:</h2>
+					<ol>
+						<li>New Zealand</li>
+						<li>Norway</li>
+						<li>Thailand</li>
+						<li>South Korea</li>
+						<li>United Kingdom</li>
+						<li>Germany</li>
+						<li>Spain</li>
+						<li>Morocco</li>
+						<li>Japan</li>
+						<li>Mongolia</li>
+					</ol>
+				</div>
+			</main>
 			
-		<footer>
-			<nav>
+			<footer>
 				<address>
 					Contact Info<br/>
 					Jay Silvas<br/>
 					42 Wallaby Way<br/>
 					Sidney, Australia
 				</address>
-			</nav>
-		</footer>
-	</div>
-
-  <!-- <script src="js/app.js"></script> -->
+			</footer>
+		</div>
+		<!-- <script src="js/app.js"></script> -->
 </body>
 
 </html>

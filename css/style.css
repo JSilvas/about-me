@@ -1,54 +1,95 @@
-* {
-    color: rgb(218, 218, 218);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
     background-image: url('https://www.iqmetrix.com/hs-fs/hubfs/04_Resources/01_Blog/01_Daily_Dose/bigdatablog.jpg?t=1516918468738&width=1600&name=bigdatablog.jpg');
     background-color: rgb(47, 99, 141);
     background-attachment: fixed;
+    text-align: center;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: rgb(224, 224, 224);
+    margin-top: 100px;
 }
 
-/* .wrapper {
-
-}
-
-#ProfilePic {
-
-}
-
-header {
+.wrapper {
+    margin: 50px;
     
+}
+#facePic {
+    opacity: 0.9;
+    padding: 0px;
+    box-shadow: 0px 0px 10px 5px teal; 
+}
+
+h1 {
+    font-size: 3em;
+    padding:20px 0 ;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: rgb(224, 224, 224);
 }
 
 section {
-
+    margin: 0 auto;
+    width: 60%;
+    background: #0B414E;
+    padding: 50px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 78, 78, 0.89);
 }
 
-footer {
+section img {
+    width: 100%;
+}
 
-} */
+figcaption {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+article {
+    margin-bottom: 60px;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1em;
+    margin: 10px;
+}
 
 p {
-    width: 60%;
-};
-
-
-.navbar {
-    display: inline-block;
-    background: gray;
-    opacity: 0.8;
-    padding: 20px;
-    margin: 10px;
-    font-family: helvetica;
-    float: left;
-    /* border: medium seagreen; */
-    /* border-radius: round; */
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    margin: 20px;
 }
 
-/* ol {
-    
-    background: gray;
-    opacity: 0.4;
-    padding: 10px;
-} */
+nav {
+    font-size: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+ul {
+    background: #0B414E;
+    width: 100%;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    background: rgba(128, 128, 128, 0.95);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px 5px teal; 
+}
+
+ol {
+    display: block;
+}
