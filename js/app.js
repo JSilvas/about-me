@@ -2,13 +2,12 @@
 
 // keeping score for total correct and incorrect answers
 var correctAnswers = 0;
-// var totalAnswers = 0;
-
-
 var userName = prompt('Hi! Glad you are here. What is your name?');
-alert('Hi, ' + userName + ', nice to meet you! I am going to ask you a few fun questions about me. Please answer with y/n or yes/no.');
-console.log('User was asked their name, responded with: ' + userName + '.');
 
+function helloName() {
+  alert('Hi, ' + userName + ', nice to meet you! I am going to ask you a few fun questions about me. Please answer with y/n or yes/no.');
+  console.log('User was asked their name, responded with: ' + userName + '.');
+}
 
 // QUESTION 1
 function question1() {
@@ -113,8 +112,6 @@ function question6() {
       alert('That was an invalid response!');
     }
   }
-  //console.log(correctAnswers);
-  //console.log(totalAnswers);
 }
 
 // QUESTION 7 - MULTI-ANSWER QUESTION
@@ -150,10 +147,10 @@ function question7() {
 // Final scores announcement
 function finalScore() {
   alert('You got ' + correctAnswers + ' out of 7 questions correct, ' + userName + '! Better luck next time.');
-  // alert('You got ' + correctAnswers + ' out of ' + totalAnswers + ' questions correct, Bobbi! Better luck next time.')
 }
 
 function startGame() {
+  helloName();
   question1();
   question2();
   question3();
